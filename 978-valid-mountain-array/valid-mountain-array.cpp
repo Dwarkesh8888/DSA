@@ -12,7 +12,7 @@ public:
         if(i==0 || i==n-1) {
             return false;
         }
-        while( i + 1 < n && arr[i] > arr[i+1]){ // Strictly Decreasing 
+        while(i+1 < n && arr[i] > arr[i+1]){ // Strictly Decreasing 
             i++;
         }
         return i == n-1 ;
